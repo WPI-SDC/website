@@ -1,8 +1,10 @@
 {
 	"contact_email" : "sdc-officers@wpi.edu",
 	"carousel_images" : [
-		{"src" : "images/team_photos/Model_Manufacturing_1.jpg"},
-		{"src" : "images/team_photos/Model_Display.jpg"}
+		{"src" : "images/team_photos/Model_Display_400w.jpg"},
+		{"src" : "images/renders/1U_CubeSat_Render_3.JPG"},
+		{"src" : "images/team_photos/Maker_Faire_2016_1_400w_300h.jpg"},
+		{"src" : "images/team_photos/Model_Manufacturing_2_400w_300h.jpg"}
 	],
 	"carousel_active" : 0,
 	"current_term_letter" : "B",
