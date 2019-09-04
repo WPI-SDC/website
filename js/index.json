@@ -13,7 +13,7 @@
 	"current_term_letter" : "D",
 	"current_term_year" : "2019",
 	"current_term_meetings" : [
-		{"name" : "GBM", "day_of_week" : "Mondays", "time" : "5-6pm", "location" : "Stratton Hall 202"},
+		{"name" : "GBM", "day_of_week" : "Wednesdays", "time" : "5-6pm", "location" : "Kaven Hall 204"},
 		{"name" : "Work Meeting", "day_of_week" : "Wednesdays", "time" : "5-7pm", "location" : "Atwater Kent Lab (exact location varies)"}
 	]
 }
