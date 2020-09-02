@@ -104,9 +104,9 @@
                 <div class="col-lg-4 col-sm-12">
                     <h2>Join the Team!</h2>
                     <p>We welcome WPI students of all majors and experience levels - stop by a meeting to meet the team!
-                        The SDC typically has two team meetings per week: a one-hour General Body Meeting (GBM)
-                        focused on administrative tasks and planning, and a work meeting on the weekend to focus
-                        on completing tasks and collaborating with other subgroups.</p>
+                        The SDC typically has a few team meetings per week: a one-hour General Body Meeting (GBM)
+                        focused on administrative tasks and planning, and multiple work meetings to focus
+                        on completing tasks in specific subgroups.</p>
                     <h4 id="meetings-header">C Term 2018 Schedule:</h4>
                     <div id="meetings-wrapper">
 
@@ -147,7 +147,8 @@
                         and has evolved into the team it is today, with team members from many majors. From 2014
                         to 2016, the SDC competed in NASA's Cube Quest Challenge - a competition to send a CubeSat
                         into deep space. In October 2016, the club transitioned to applying to NASA's CubeSat
-                        Launch Initiative (CSLI) to conduct scientific experiments in Low Earth Orbit.</p>
+                        Launch Initiative (CSLI) to conduct scientific experiments in Low Earth Orbit. Currently, we
+                        are designing the basic frame of a CubeSat.</p>
                     <p>In addition CubeSats, one of the main goals of the SDC it to give students the opportunity
                         to network with companies and practice collaborative problem solving
                         within an interdisciplinary team. Students gain experience communicating via technical
@@ -258,33 +259,75 @@
             </div>
 
 
-            <!-- Side Projects Subheader -->
+            <!-- Reaction Wheel Subheader -->
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Side Projects</h2>
+                    <h2>Reaction Wheels</h2>
                 </div>
             </div>
-            <!-- Side Projects Content -->
+            <!-- Reaction Wheel Content -->
             <div class="row">
                 <div class="col-lg-8 col-md-12">
-                    <p>In addition to our main project, building a CubeSat for CSLI, the SDC runs several
-                        side projects throughout the year. These projects, all of which are related to aerospace,
-                        are geared towards letting our members explore new ideas and hone their skills. Often, but
-                        not always, side projects have components that support development of the CubeSat. Examples
-                        of current projects are:
-                    </p>
-                    <ul>
-                        <li>Designing and machining a model for the CubeSat structures</li>
-                        <li>Building a Guidance, Navigation and Controls (GNC) testing platform</li>
-                        <li>Designing and testing a prototype for the CubeSat payload using a Raspberry Pi</li>
-                    </ul>
-                    <p>Students are always welcome to pitch a proposal for a new side project, provided it has an
-                        educational purpose and is related to space in some manner. Side project funding is usually
-                        sourced from WPI's Student Government Association.
+                    <p>For just about any satellite, it needs a means of orientation control.
+                        That is where this project comes in. The goal of the reaction control system is to
+                        design and build a working 3 axis control system using
+                        reaction wheels that is controlled by a raspberry pi. For cubesats, there are only three possibilities
+                        for attitude control: magnetorquers, reaction wheels, and no control. Magnetorquers are a simple,
+                        low force method of rotating small spacecraft. They are a simple coil that produces a magnetic field
+                        that pushes against earth’s magnetic field. Reaction wheels are different. The function on the principle
+                        of conservation of momentum and provide much higher amounts of rotation. They work by having multiple
+                        wheels spinning on different axis to provide torque in that axis. The big brother to reaction wheels is
+                        control moment gyros. These are used on the Hubble space telescope.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <img class="w-100" src="images/team_photos/Model_Manufacturing_1_400w.jpg">
+                    <img class="w-100" src="images/other/reactionwheel.JPG">
+                </div>
+            </div>
+
+            <!-- Burnwire Subheader -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Burnwire</h2>
+                </div>
+            </div>
+            <!-- Burnwire Content -->
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <img class="w-100" src="images/other/burnwire.JPG">
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <p>One of our side projects in a burnwire mechanism. The goal of this project
+                        is to eventually develop a deployment system for solar panels.
+                        This would work by having a piece of nichrome wire burn through a string to
+                        release tension, allowing the solar panels to deploy. So far we’ve worked on testing
+                        how much current is required to burn the string and figuring out how to control
+                        this using a Raspberry Pi. Our goal this year will be to combine this project
+                        with the solar panel project to design a way for these two mechanisms to fit together.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Solar Panels Subheader -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Solar Panels</h2>
+                </div>
+            </div>
+            <!-- Solar Panels Content -->
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <p>There are two main ways to power a satellite: you can power it with some form of onboard power
+                        (be it long-lasting battery or nuclear) or you can harness the power of the sun.
+                        As it is tough to fit a nuclear reactor on a cubesat, we decided to use the sun to power our
+                        CubeSat. To do this, we need to use solar panels - which convert light into electrical power.
+                        We've been using TriSolX solar cells, and are preparing to design a side panel that would
+                        swing out and be able to face the sun directly. Our goal this year is to design and implement
+                        this board, as well as create and test the deployment mechanism.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img class="w-100" src="images/other/solarpanel.JPG">
                 </div>
             </div>
 
